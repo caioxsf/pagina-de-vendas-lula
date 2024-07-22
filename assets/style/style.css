@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color: black;
+}
+
+.h1-lula
+{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: BOLD;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    margin-inline: 30px;
+}
+
+.h1-lula span
+{
+    color: rgb(216, 38, 38);
+    margin-right: 5px;
+}
+
+.p-lula 
+{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-inline: 30px;
+}
+
+.p-lula span
+{
+    color: rgb(216, 38, 38);
+}
+
+.p-desc
+{
+    color: white;
+    margin: 60px;
+    text-align: justify;
+}
+
+.p-desc span
+{
+    background-color: rgb(216, 38, 38);
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 5px;
+}
+
+.container img
+{
+    width: 330px;
+    height: 330px;
+}
+
+button
+{
+    width: 200px;
+    height: 7cqh;
+    position: relative;
+    left: 120px;
+    top: 70px;
+
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+
+    background-color: rgb(29, 235, 29);
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.3s;
+    box-shadow: rgb(19, 216, 19) 0px 5px 15px;
+}
+
+button.pulsante {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button a
+{
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.p-s
+{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.s-1
+{
+    color: rgb(216, 38, 38);
+    text-decoration: line-through;
+}
+ 
+.s-2
+{
+    background-color: rgb(35, 138, 35);
+    padding: 5px;
+    border-radius: 5px;
+}
